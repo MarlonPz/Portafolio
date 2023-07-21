@@ -1,0 +1,66 @@
+.formacion {
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    background: #EAF2FD;
+}
+
+.formacion .formacion-titulo {
+    margin-bottom: 1.6rem;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #464646;
+    flex-grow: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formacion .formacion-parrilla {
+    width: 100%;
+    display: flex;
+}
+
+.formacion .formacion-parrilla .formacion-caja {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.formacion .formacion-parrilla .formacion-caja .formacion-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.formacion .formacion-parrilla .formacion-caja .formacion-contenido .formacion-imagen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    height: 15.8rem;
+    align-content: center;
+    background: white;
+}
+
+.formacion .formacion-parrilla .formacion-caja .formacion-contenido .formacion-imagen img {
+    width: 7rem;
+    height:auto;
+}
+
+.formacion .formacion-parrilla .formacion-caja .formacion-contenido .formacion-caja-titulo {
+    margin-top: 0.6rem;
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #464646;
+}
+
+.formacion .formacion-parrilla .formacion-caja .formacion-contenido .formacion-caja-subtitulo {
+    margin-top: 0.6rem;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #464646;
+    font-family: 'Open Sans', sans-serif;
+}

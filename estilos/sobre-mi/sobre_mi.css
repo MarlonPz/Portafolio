@@ -1,0 +1,28 @@
+#sobre_mi{
+    display: flex;
+    background-color: #EAF2FD;
+    margin-top: 2rem;
+    width: 100%;
+
+}
+.sobre_mi-titulo{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #464646;
+}
+.resumen_biografia{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #464646;
+}
+.iamgen_firma{
+    width: 250px;
+    margin-left: 5rem;
+}
+@media screen and (max-width:390px){
+    .titulo{
+    display: flex;
+    }
+}

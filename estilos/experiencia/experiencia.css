@@ -1,0 +1,62 @@
+.experiencia-titulo{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #464646;
+}
+.experiencia-imagen{
+    display: flex;
+}
+.encriptador{
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    width: 60vw;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.descripcion-texto{
+    position: relative;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #464646;
+    font-size: 1rem;
+}
+.descripcion-parrafo{
+    position: relative;
+    padding-left: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+.botones{
+    position: relative;
+    padding-left: 1rem;
+}
+.boton-repositorio{
+    box-sizing: border-box;
+    padding: 1rem;
+    color: #2A7AE4;
+    border: 1.1px solid #2A7AE4;
+    background: inherit;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+.boton-demo{
+    box-sizing: border-box;
+    margin-left: 1.22rem;
+    padding: 1rem;
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: white;
+    cursor: pointer;
+}
+.boton-repositorio:hover{
+    color: #2A7AE4;
+    border-color: #2A7AE4;
+    background: #e2e2e2;
+}

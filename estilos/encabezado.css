@@ -1,0 +1,56 @@
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 12rem;
+}
+.nav_encabezado{
+    display: flex;
+    justify-content: space-between;
+}
+.ul_encabezado{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.li_encabezado{
+font-family: 'Open Sans', sans-serif;
+-moz-transition: font-size 0.5ms linear .20s; 
+-webkit-transition: font-size 0.5ms linear .20s;
+-o-transition: font-size 0.5ms linear .20s;
+transition: font-size 0.5ms linear .20s;
+}
+.li_encabezado:hover{
+    font-size: 1.2em;
+}
+.link_encabezado{
+    text-decoration: none;
+    color: #464646;
+}
+.vector_estrellas{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    right: 80px;
+    margin-top: 2px;
+}
+.encabezado_nombre{
+    display: flex;
+}
+.nombre{
+    position: relative;
+    display: flex;
+    right: 5rem;
+    margin-top: 5px;
+    margin-right: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #464646 ;
+}
+@media screen and (max-width:768px) {
+
+    .encabezado_nombre{
+        margin-right: 8rem;
+    }
+    .ul_encabezado{
+        display: none;
+    }
+}

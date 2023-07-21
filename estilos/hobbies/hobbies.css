@@ -1,0 +1,14 @@
+.iconos_hobbies{
+display: flex;
+justify-content: space-between;
+margin-left: 10rem;
+margin-right: 10rem;
+margin-bottom: 4rem;
+}
+.hobbies_titulo{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+    color: #464646;
+}

@@ -1,0 +1,21 @@
+.iconos{
+display: flex;
+justify-content: space-between;
+margin-left: 10rem;
+margin-right: 10rem;
+margin-bottom: 4rem;
+}
+.img-icon{
+    position: relative;
+    right: 4px;
+}
+.skills_titulo{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 6rem;
+    color: #464646;
+}
+.icono-texto{
+    font-family: 'Open Sans', sans-serif;
+
+}

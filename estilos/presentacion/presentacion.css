@@ -1,0 +1,62 @@
+.Presentacion{
+    display: flex;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    margin: 0;
+}
+.titulo_presentacion{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+}
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #464646;
+}
+.resumen_presentacion{
+    font-family: 'Open Sans', sans-serif;
+    color: #464646;
+}
+.ul-redes{
+    display: flex;
+}
+.li-redes{
+position: relative;
+margin-top: -5px;
+padding: 1rem;
+margin-right: 1rem;
+right: 1rem;
+}
+.link-redes{
+    text-decoration: none;
+    color: #464646;
+}
+.Flecha{
+    position: relative;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+}
+.imagen{
+    display: flex;
+    width: 600px;
+    margin-right: 2rem;
+
+}@media screen and (max-width:768px){
+    .Presentacion{
+        display: flex;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin: 0;
+    }
+    .imagen{
+        display: flex;
+        margin-top: 4rem;
+        margin-right: 5rem;
+    }
+    .imagen_presentacion{
+        width: 200px;
+        height: 200px;
+    }
+}
